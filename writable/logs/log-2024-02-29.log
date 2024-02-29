@@ -1,0 +1,9 @@
+ERROR - 2024-02-29 01:20:35 --> Table 'perpus.peminjam' doesn't exist
+CRITICAL - 2024-02-29 01:20:35 --> Call to a member function getRowArray() on bool
+#0 C:\Users\PC 5\perpus\app\Controllers\Home.php(26): App\Models\M_model->getarray('peminjam', NULL)
+#1 C:\Users\PC 5\perpus\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\Users\PC 5\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\PC 5\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC 5\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC 5\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 5\\p...')
+#6 {main}
